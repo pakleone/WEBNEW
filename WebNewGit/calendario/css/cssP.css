@@ -1,0 +1,108 @@
+.calendario {
+	font-family: "Helvetica", "Tahoma", sans-serif;
+}
+
+.calendario-header {
+	background-color: rgb(40, 44, 78);
+	color: #fff;
+	width: 400px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.calendario-header div {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 15px;
+	height: 60px;
+	width: 300px;
+	border: 1px solid rgba(0, 0 , 0, 0.5);
+}
+
+.calendario-header div:first-child {
+	width: 100px;
+	border-right: none;
+}
+
+.calendario-body {
+	position: relative;
+}
+
+.calendario-body div {
+	float: left;
+}
+
+.calendario-hour {
+	background-color: rgb(34, 34, 34);
+	color: #fff;
+	width: 100px;
+}
+
+.calendario-hour div {
+	clear: left;
+	height: 60px;
+	width: inherit;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 20px;
+	border: 1px solid rgba(0, 0 , 0, 0.5);
+	border-top: none;
+	border-right: none;
+}
+
+.calendario-grid {
+	width: 300px;
+}
+
+.calendario-grid-strip {
+	height: 60px;
+	width: inherit;
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0 , 0, 0.5);
+	border-top: none;
+}
+
+.calendario-grid-strip:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+
+.calendario-grid-strip:nth-child(2n+1) {
+	background-color: rgb(238, 238, 238);
+}
+
+.event {
+	width: 280px;
+	border: 1px solid #000;
+	border-radius: 15px 5px;
+	box-sizing: border-box;
+	position: absolute;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.palestra {
+	background-color: rgba(0, 230, 0, 0.8);
+}
+
+.minicurso {
+	background-color: rgba(204, 0, 0, 0.8);
+}
+
+.outra-atividade {
+	background-color: rgba(0, 102, 255, 0.8);
+}
+
+.close {
+	line-height: 0;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.close img {
+	width: 13px;
+}
